@@ -5,7 +5,10 @@ import 'package:propertymanager/Screens/Legders.dart';
 import 'package:propertymanager/Screens/Marketing.dart';
 import 'package:propertymanager/Screens/PM.dart';
 import 'package:propertymanager/Screens/Tenants.dart';
+import 'package:propertymanager/Screens/AddTenants.dart';
 import 'constants.dart';
+
+final Color backgroundColor = Color(0XFF4A4A58);
 
 void main() => runApp(MyApp());
 
@@ -28,6 +31,7 @@ class MyApp extends StatelessWidget {
         LegalCompliance.id: (context) => LegalCompliance(),
         Ledgers.id: (context) => Ledgers(),
         PropertyMarketing.id: (context) => PropertyMarketing(),
+        AddTenants.id: (context) => AddTenants(),
       },
     );
   }
